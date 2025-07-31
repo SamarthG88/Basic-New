@@ -39,6 +39,21 @@ let newone=a1.concat(a2);
 console.log(newone);
 
 
+let d1=[1,2,3,[4,5,6],[7,8,[9,10]]];
+console.log(d1);
+
+
+let all=d1.flat(Infinity);
+console.log(all);
+
+
+let h1=["k1","k2","k3"];
+let h2=["G1","G2","G3"];
+
+let allHero=[...h1 , ...h2];
+console.log(allHero);
+
+
 console.log(Array.isArray(a1));
 
 console.log(Array.from("HelloBuddy"));
@@ -90,3 +105,6 @@ obj.greet=function(){
 }
 
 console.log(obj.greet())
+
+
+
